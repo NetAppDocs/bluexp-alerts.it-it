@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-prerequisites.html 
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites 
+summary: 'Inizia subito con gli avvisi di BlueXP  verificando il supporto per il tuo ambiente, l"accesso alla rete, l"accesso e il browser web.' 
+---
+= BlueXP  avverte i prerequisiti
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/get-started/
+
+
+[role="lead"]
+Inizia con gli avvisi di BlueXP  verificando la preparazione del tuo ambiente operativo.
+
+Per utilizzare gli avvisi BlueXP , sono necessari i seguenti prerequisiti:
+
+* ONTAP 9.10 e successivi. L'ambiente di lavoro in loco deve essere scoperto nella tela BlueXP .
++
+** Autorizzazioni ONTAP di amministrazione cluster
++
+Non è necessario immettere la licenza nel portafoglio digitale di BlueXP .
+
+
+
+* In BlueXP:
++
+** Un ambiente di lavoro BlueXP  con storage NAS o SAN on-premise NetApp
+** In BlueXP  è necessario impostare un connettore BlueXP  per una regione locale. Fare riferimento alla https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Documentazione di BlueXP per configurare il connettore"^].
++
+Se un cluster viene rimosso da un connettore BlueXP , gli avvisi relativi a quel cluster rimangono per 90 giorni. Inoltre, in caso di sostituzione del connettore, gli avvisi rimangono associati al cluster e al connettore originali per 90 giorni. Se si torna al connettore originale, vengono nuovamente visualizzati gli avvisi.
+
+** Organizzazione BlueXP  con almeno un connettore attivo che si connette ai cluster ONTAP on-premise. Tutti gli ambienti di origine e di lavoro devono appartenere alla stessa organizzazione BlueXP .
+** Un utente BlueXP  dell'organizzazione con Organization Admin Privileges per la ricerca delle risorse
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Requisiti standard di BlueXP"^]
+
+
+

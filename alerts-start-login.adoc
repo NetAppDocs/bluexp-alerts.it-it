@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-login.html 
+keywords: bluexp login, log in, ontap, netapp 
+summary: Inizia a utilizzare gli avvisi BlueXP  accedendo al servizio in BlueXP . 
+---
+= Accedere agli avvisi BlueXP 
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Utilizzare NetApp BlueXP  per accedere al servizio avvisi BlueXP .
+
+Per accedere a BlueXP , puoi utilizzare le tue credenziali del sito di supporto NetApp oppure iscriverti a un login cloud NetApp utilizzando la tua email e una password. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Scopri di più sull'accesso"^].
+
+.Fasi
+. Aprire un browser Web e accedere a https://console.bluexp.netapp.com/["Console BlueXP"^].
++
+Viene visualizzata la pagina di accesso a NetApp BlueXP.
+
+. Accedere a BlueXP.
+. Dal menu di navigazione BlueXP  a sinistra, selezionare *monitoraggio* > *Avvisi*.
++
+Viene visualizzata la pagina dell'elenco degli avvisi.
+
++
+image:alerts-dashboard.png["Pagina dell'elenco degli avvisi BlueXP "]
+
+

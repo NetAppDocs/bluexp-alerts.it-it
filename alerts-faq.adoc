@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: alerts-faq.html 
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert 
+summary: Queste domande frequenti sugli avvisi di BlueXP  possono essere utili se stai cercando una risposta rapida a una domanda. 
+---
+= Domande frequenti sugli avvisi BlueXP 
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Queste FAQ possono essere utili se stai cercando una risposta rapida a una domanda.
+
+
+
+== Accesso agli avvisi BlueXP 
+
+*Qual è l'URL degli avvisi BlueXP ?* Per l'URL, in un browser, immettere: https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] Per accedere alla console BlueXP .
+
+*È necessaria una licenza per utilizzare gli avvisi BlueXP ?*
+
+Il servizio BlueXP  Alert richiede una licenza NetApp ONTAP 9.10 o superiore. Non è necessario immettere la licenza nel portafoglio digitale di BlueXP .
+
+Non è necessario disporre di una licenza di prova per questo servizio.
+
+*Come si attivano gli avvisi BlueXP ?* Gli avvisi BlueXP  non richiedono l'abilitazione. L'opzione Avvisi viene attivata automaticamente sulla navigazione sinistra di BlueXP .
+
+Per iniziare, quando si utilizza il connettore BlueXP , verranno incluse le funzionalità appropriate per il servizio.
+
+**Gli avvisi BlueXP  sono disponibili in modalità standard, limitata e privata?** Il servizio può essere implementato solo nello standard BlueXP  (pubblico).
+
+Per una spiegazione su queste modalità in tutti i servizi BlueXP , fare riferimento a https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modalità di implementazione di BlueXP"^].
+
+**Come vengono gestite le autorizzazioni di accesso?** Solo gli amministratori delle organizzazioni di BlueXP  possono avviare il servizio di alert BlueXP  e rilevare i carichi di lavoro (poiché questo implica l'impegno all'utilizzo di una risorsa).
+
+Gli avvisi vengono visualizzati agli utenti connessi in base al loro accesso alla risorsa del cluster in quella organizzazione BlueXP .
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-netapp-accounts.html["Scopri di più sulle organizzazioni BlueXP "].
+
+
+
+== Visualizza avvisi
+
+**Quanto tempo devo aspettare prima di iniziare a ricevere gli avvisi?**
+
+Attendere un massimo di 15 minuti per il rilevamento iniziale e, dopo di che, un massimo di 5 minuti per la visualizzazione degli avvisi. Questo varia da avviso a avviso.
+
+**Perché non riesco a vedere gli avvisi per ONTAP utilizzando la modalità diretta senza un connettore BlueXP ?*
+
+Gli avvisi BlueXP  sono disponibili solo utilizzando il connettore BlueXP  standard in loco. L'uso della modalità diretta non monitora i cluster e non visualizza gli avvisi.
+
+**Perché alcuni avvisi scompaiono dalla pagina dell'elenco degli avvisi?**
+
+La funzione di avviso mantiene alcuni avvisi attivi e li chiude dopo che la condizione del contatore è stata soddisfatta o è stato raggiunto un periodo di tempo. Questo varia da avviso a avviso.
+
+Per visualizzare tutti gli avvisi, selezionare il filtro della colonna Stato e l'opzione chiuso.
+
+
+
+== Visualizzazione delle informazioni
+
+**Qual è la migliore risoluzione del dispositivo?** La risoluzione consigliata per gli avvisi BlueXP  è pari o superiore a 1920x1080.
+
+**Quale browser devo utilizzare?** Qualsiasi browser moderno funzionerà.

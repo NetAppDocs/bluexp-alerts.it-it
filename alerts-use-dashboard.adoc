@@ -1,0 +1,174 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-dashboard.html 
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
+summary: 'Il servizio di avvisi BlueXP  fornisce informazioni immediate sullo stato di salute dell"ambiente ONTAP. Puoi identificare rapidamente i cluster ONTAP con bassa capacità o performance ridotte, valutare il grado di disponibilità, determinare la disponibilità e identificare i rischi per la sicurezza.' 
+---
+= Visualizzare i potenziali rischi nello storage ONTAP utilizzando la pagina dell'elenco Alerts
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Il servizio di alert di BlueXP  fornisce informazioni immediate sui potenziali rischi del tuo ambiente ONTAP. Puoi identificare rapidamente i cluster ONTAP con bassa capacità o performance ridotte, valutare il grado di disponibilità, determinare la disponibilità e identificare i rischi per la sicurezza.
+
+Il servizio BlueXP  Alert fornisce informazioni su questi livelli di gravità e aree di impatto:
+
+* *Severities*: Critico, Avvertenza, Informazionale
+* *Aree di impatto*: Capacità, prestazioni, disponibilità, protezione, sicurezza, configurazione
+
+
+
+
+== Avvisi che potrebbero essere visualizzati
+
+Di seguito sono riportati alcuni avvisi visualizzati dal servizio.
+
+Il livello di gravità EMS viene associato al livello di gravità del servizio degli avvisi BlueXP  nei seguenti modi:
+
+[cols="40,40"]
+|===
+| Gravità avviso EMS: | Gravità avviso BlueXP : 
+
+
+| allarme o emergenza | critico 
+
+
+| errore | Nessuno 
+
+
+| Basso | attenzione 
+
+
+| attenzione | informativo 
+
+
+| informativo | informativo 
+|===
+.Elenco degli avvisi
+[%collapsible]
+====
+Avvisi di gravità critica:
+
+* Lo stato aggregato non è online
+* Guasto a un disco
+* Il tempo di ritardo SnapMirror è elevato
+* Stato del volume offline
+* Violazione percentuale volume utilizzato
+
+
+Avvisi EMS:
+
+* Server antivirus occupato
+* Credenziali AWS non inizializzate
+* Tier cloud irraggiungibile
+* Disco fuori servizio
+* Rilevato alimentatore shelf di dischi
+* Alimentatore degli shelf di dischi rimosso
+* Risincronizzazione replica mirror FabricPool completata
+* Limite di utilizzo dello spazio FabricPool quasi raggiunto
+* Limite di utilizzo dello spazio FabricPool raggiunto
+* Comandi della porta di destinazione FC superati
+* Giveback del pool di archiviazione non riuscito
+* Interconnessione HA disattivata
+* LUN distrutta
+* LUN offline
+* Ventola dell'unità principale guasta
+* Ventola dell'unità principale in stato di avvertenza
+* Numero massimo di sessioni per utente superato
+* Numero massimo di volte di apertura per file superato
+* Switchover non pianificato automatico MetroCluster disattivato
+* Monitoring MetroCluster
+* Conflitto del nome NetBIOS
+* NFSv4 sore piscina esaurito
+* Nodo panico
+* Spazio basso nel volume root del nodo
+* Condivisione amministratore inesistente
+* Server antivirus che non risponde
+* Nessun motore di scansione registrato
+* Nessuna connessione Vscan
+* Namespace NVMe distrutto
+* Namespace NVMe offline
+* Namespace NVMe online
+* NVMe-of License Grace period attivo
+* NVMe-of License Grace period scaduto
+* Avvio del periodo di tolleranza della licenza NVMe-of
+* Batteria NVRAM scarica
+* Host archivio oggetti non risolvibile
+* Archivio di oggetti Intercluster LIF down
+* Mancata corrispondenza della firma dell'archivio oggetti
+* Memoria del monitor QoS massima memoria esaurita
+* Rilevata attività ransomware
+* Riposizionamento del pool di archiviazione non riuscito
+* Aggiunto ONTAP Mediator
+* ONTAP Mediator non accessibile
+* ONTAP Mediator irraggiungibile
+* ONTAP Mediator rimosso
+* Timeout READDIR
+* Stato SAN "attivo-attivo" modificato
+* Heartbeat del processore di servizio non riuscito
+* Heartbeat del processore di servizio interrotto
+* Service Processor non in linea
+* Service Processor non configurato
+* Copia shadow non riuscita
+* Adattatore target SFP in FC a basso consumo
+* SFP in FC target adapter in trasmissione bassa potenza
+* Ventola ripiano guasta
+* Certificato CA SMBC scaduto
+* Certificato SMBC CA in scadenza
+* Certificato client SMBC scaduto
+* Certificato client SMBC in scadenza
+* Relazione SMBC non sincronizzata
+* Certificato server SMBC scaduto
+* Certificato server SMBC in scadenza
+* Relazione di SnapMirror non sincronizzata
+* Alimentatori switch di archiviazione non funzionanti
+* Monitoraggio anti-ransomware delle Storage VM
+* Arresto VM di archiviazione riuscito
+* Il sistema non può funzionare a causa di un guasto della ventola dell'unità principale
+* Troppe autenticazioni CIFS
+* Dischi non assegnati
+* Accesso utente non autorizzato alla condivisione amministrativa
+* Virus rilevato
+* Monitoraggio anti-ransomware dei volumi
+* Ridimensionamento automatico del volume riuscito
+* Volume offline
+* Volume limitato
+
+
+====
+Per ulteriori informazioni sugli avvisi di ONTAP, fare riferimento alla documentazione di ONTAP e alle informazioni su Gestione sistema all'indirizzo https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["System Manager fornisce informazioni sui problemi di capacità, sicurezza e configurazione"^].
+
+
+
+== Visualizza i problemi di storage di ONTAP
+
+.Fasi
+. Dal menu di navigazione BlueXP  a sinistra, selezionare *monitoraggio* > *Avvisi*.
++
+Dopo il rilevamento, nella pagina dell'elenco degli avvisi viene visualizzato un elenco di avvisi nell'ambiente ONTAP.
+
++
+Potrebbe verificarsi un ritardo tra la visualizzazione di un evento e degli avvisi BlueXP .
+
+. Dalla pagina dell'elenco Avvisi, è possibile visualizzare ed eseguire una delle seguenti operazioni:
++
+** Modificare l'ordinamento facendo clic sulla freccia verso l'alto o verso il basso di una colonna.
+** Modificare il filtro nelle colonne per visualizzare solo le informazioni desiderate.
++
+
+TIP: Ad esempio, è possibile visualizzare solo gli avvisi relativi alla capacità. A tale scopo, fare clic sull'icona del filtro nella colonna dell'area impatto, selezionare *capacità* e selezionare *Applica*.
+
++
+image:alerts-dashboard-capacity-filter.png["Pagina degli avvisi che mostra i filtri dell'area di impatto"]
+
+** Scaricare un file CSV contenente le informazioni sugli avvisi.
++
+È possibile scaricare fino a 1000 avvisi. Il file include i dati in base ai filtri impostati.
+
+** Seleziona un avviso ed esegui un'analisi dettagliata dei dettagli degli avvisi del cluster. Vedere link://alerts-use-alerts.html["Visualizzare i dettagli degli avvisi"].
+
+
+
