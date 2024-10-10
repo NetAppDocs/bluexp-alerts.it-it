@@ -3,14 +3,14 @@ indexpage:
   title: Documentazione degli avvisi BlueXP 
   summary: Gli alert BlueXP  sono un servizio che ti permette di visualizzare problemi
     o rischi potenziali nel tuo ambiente NetApp ONTAP. Il servizio consente di analizzare
-    nei dettagli degli avvisi e visualizzare le informazioni sul cluster con NetApp
+    nei dettagli degli avvisi e visualizzare le informazioni sul cluster con ONTAP
     System Manager.
   keywords: bluexp, ONTAP, alerts, system manager
   lead: Gli avvisi BlueXP  sono un servizio che ti consente di visualizzare problemi
     o rischi potenziali nel tuo ambiente NetApp ONTAP relativi a capacità, performance,
     protezione, disponibilità e sicurezza. Attraverso il servizio è possibile analizzare
     nei dettagli degli avvisi e visualizzare le informazioni sul cluster collegate
-    a NetApp System Manager.
+    a ONTAP System Manager.
   tiles:
   - title: Inizia subito
     links:

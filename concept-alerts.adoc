@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-alerts.html 
 keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
-summary: Gli avvisi BlueXP  sono un servizio che ti consente di visualizzare problemi o rischi potenziali nel tuo ambiente NetApp ONTAP relativi a capacità, performance, disponibilità e sicurezza. Con il servizio è possibile analizzare in dettaglio utilizzando Gestione di sistema di NetApp. 
+summary: Gli avvisi BlueXP  sono un servizio che ti consente di visualizzare problemi o rischi potenziali nel tuo ambiente NetApp ONTAP relativi a capacità, performance, disponibilità e sicurezza. Con il servizio è possibile analizzare in dettaglio utilizzando Gestione di sistema di ONTAP. 
 ---
 = Ulteriori informazioni sugli avvisi BlueXP 
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Gli avvisi BlueXP  sono un servizio che ti consente di visualizzare pr
 
 
 [role="lead"]
-Gli avvisi BlueXP  sono un servizio che ti permette di visualizzare problemi o rischi potenziali negli ambienti ONTAP on-premise NetApp utilizzando il connettore BlueXP  standard. Con il servizio è possibile analizzare in dettaglio utilizzando Gestione di sistema di NetApp.
+Gli avvisi BlueXP  sono un servizio che ti permette di visualizzare problemi o rischi potenziali negli ambienti ONTAP on-premise NetApp utilizzando il connettore BlueXP  standard. Con il servizio è possibile analizzare in dettaglio utilizzando Gestione di sistema di ONTAP.
 
 
 
