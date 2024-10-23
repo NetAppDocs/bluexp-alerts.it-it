@@ -16,7 +16,9 @@ sidebar:
   - title: BlueXP  avverte i documenti
     url: "/index.html"
   - title: Note di rilascio
-    url: "/whats-new.html"
+    entries:
+    - title: Novità degli avvisi BlueXP 
+      url: "/whats-new.html"
   - title: Inizia subito
     entries:
     - title: Ulteriori informazioni sugli avvisi BlueXP 

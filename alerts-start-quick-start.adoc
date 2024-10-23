@@ -28,5 +28,5 @@ Dopo aver configurato il servizio, ecco cosa fare in seguito.
 
 [role="quick-margin-list"]
 * link:alerts-use-dashboard.html["Visualizzare i problemi di storage e i potenziali rischi nella pagina dell'elenco Alerts"].
-* link:alerts-use-alerts.html["Visualizzare i dettagli degli avvisi in System Manager"].
+* link:alerts-use-alerts.html["Visualizzare i dettagli degli avvisi in Gestione sistema di ONTAP"].
 

@@ -12,8 +12,8 @@ summary: Utilizzando gli alert BlueXP , puoi vedere la salute dei workload e pr
 
 
 [role="lead"]
-Utilizzando gli avvisi di BlueXP , puoi vedere i problemi relativi allo storage e visualizzare dettagli con link direttamente a System Manager.
+Utilizzando gli avvisi di BlueXP , puoi vedere i problemi relativi allo storage e visualizzare dettagli con link direttamente a ONTAP System Manager.
 
 * link:alerts-use-dashboard.html["Visualizzare i problemi di storage o i potenziali rischi dalla pagina dell'elenco Alerts"].
-* link:alerts-use-alerts.html["Consente di visualizzare i dettagli degli avvisi collegati in System Manager"]
+* link:alerts-use-alerts.html["Consente di visualizzare i dettagli degli avvisi collegati in Gestore di sistema di ONTAP"]
 
