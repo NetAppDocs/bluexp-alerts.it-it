@@ -262,8 +262,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">I file di avviso forniscono informazioni sul copyright e sulle licenze di terze parti utilizzate nel software NetApp.</block>
   <block id="1c8c9500f35cf575beaf6a28dc62ccf5" category="summary">Scopri le novità degli avvisi BlueXP .</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">7 ottobre 2024</block>
-  <block id="32981b0c6558eec412787b4c28c9f7a5" category="paragraph">Questa versione iniziale degli avvisi BlueXP  include le seguenti funzioni:</block>
-  <block id="335c0f5b63e966d180738ce07c85dc3f" category="list-text">*Dettagli avvisi*: È possibile analizzare i dettagli degli avvisi e trovare consigli.</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>.</block>
   <block id="65bb7ee15d3b1e07670d846d217c47d4" category="sidebar">Documentazione degli avvisi BlueXP </block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Inizia subito</block>
@@ -296,7 +294,9 @@
   <block id="ad29d7223b052b52094346c5131f1f7e" category="inline-link-macro">Consente di visualizzare i dettagli degli avvisi collegati in Gestore di sistema di ONTAP</block>
   <block id="7c6bc72b6c4331f5d897fabdaf57cdec" category="list-text"><block ref="7c6bc72b6c4331f5d897fabdaf57cdec" category="inline-link-macro-rx"></block></block>
   <block id="515706dac8e783689b6183aa91b5dc74" category="doc">Novità degli avvisi BlueXP </block>
-  <block id="221e1ce85a4c0e9e170e711608695972" category="list-text">*Pagina dell'elenco degli avvisi BlueXP *: È possibile identificare rapidamente i cluster ONTAP con capacità ridotta o prestazioni ridotte, valutare l'estensione della disponibilità e identificare i rischi per la sicurezza. Puoi visualizzare avvisi relativi a capacità, performance, protezione, disponibilità, sicurezza e configurazione.</block>
-  <block id="584c54dd31b512867535ecfbc6397a6f" category="list-text">*Visualizzazione dei dettagli del cluster collegati a Gestione sistema*: Grazie agli avvisi di BlueXP , è possibile visualizzare gli avvisi associati all'ambiente di storage ONTAP e analizzare i dettagli collegati a Gestione sistema di ONTAP.</block>
-  <block id="1dd7164ccb0d19b759cbac7ce9ee7183" category="sidebar">Novità degli avvisi BlueXP </block>
+  <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">Puoi identificare rapidamente i cluster ONTAP con bassa capacità o performance ridotte, valutare il grado di disponibilità e identificare i rischi per la sicurezza. Puoi visualizzare avvisi relativi a capacità, performance, protezione, disponibilità, sicurezza e configurazione.</block>
+  <block id="907b4f5ff0a11b28375c092b0b876c3e" category="section-title">Dettagli avvisi</block>
+  <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">Puoi approfondire i dettagli degli avvisi e trovare consigli.</block>
+  <block id="b361027502c50a2e2c7efbe96a5720bf" category="section-title">Visualizza i dettagli del cluster collegati a System Manager</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novità</block>
 </blocks>
