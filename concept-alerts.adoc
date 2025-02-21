@@ -37,7 +37,7 @@ Gli avvisi BlueXP  offrono i seguenti vantaggi:
 
 * Ricevi avvisi sullo storage ONTAP in cluster.
 * Visualizzare gli avvisi nella stessa interfaccia utente di BlueXP  utilizzata per altri servizi.
-* Analizza gli avvisi in caso di cluster ONTAP, partendo dagli alert di BlueXP  e scopri i dettagli in NetApp System Manager.
+* Analizza gli avvisi in caso di cluster ONTAP, partendo dagli alert di BlueXP  e scopri i dettagli in ONTAP System Manager.
 
 
 

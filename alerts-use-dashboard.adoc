@@ -139,7 +139,7 @@ Avvisi EMS:
 
 
 ====
-Per ulteriori informazioni sugli avvisi di ONTAP, fare riferimento alla documentazione di ONTAP e alle informazioni su Gestione sistema all'indirizzo https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["System Manager fornisce informazioni sui problemi di capacità, sicurezza e configurazione"^].
+Per ulteriori informazioni sugli avvisi di ONTAP, fare riferimento alla documentazione di ONTAP e alle informazioni su ONTAP System Manager all'indirizzo https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["ONTAP System Manager offre informazioni sui problemi di capacità, sicurezza e configurazione"^].
 
 
 
